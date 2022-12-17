@@ -11,7 +11,7 @@
 </head> 
 <body>
     <!--Navbar-->
-    <div class="navbar fixed top-0 left-0 right-0 z-10 bg-[#d62d47] duration-[.50s]" id="home">
+    <div class="navbar fixed top-0 left-0 right-0 z-10 bg-[#d62d47] duration-[.50s]">
         <div class="container mx-auto py-5 px-3">
 
             <div class="flex items-center justify-between">
@@ -32,13 +32,13 @@
                 </div>
                 <div class="menuLinks hidden md:flex md:items-center md:space-x-8">
                    
-                    <a href="#home" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#7fd85a] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Home</a>
+                    <a href="#home" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Acasă</a>
                    
-                    <a href="#about" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#7fd85a] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">About</a>
+                    <a href="#about" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Despre</a>
                 
-                    <a href="#services" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#7fd85a] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Services</a>
+                    <a href="#services" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Servicii</a>
                 
-                    <a href="#request" class="font-DMsans font-semibold text-white tracking-wide text-[15px]"><button class="bg-[#69be45] border-none text-white py-[10px] px-[15px] duration-[.10s] rounded-full hover:bg-[#7fd85a]">Make a Request</button></a>
+                    <a href="#request" class="font-DMsans font-semibold text-white tracking-wide text-[15px]"><button class="bg-[#479127] border-none text-white py-[10px] px-[15px] duration-[.10s] rounded-full hover:bg-[#4e952f]">Creează o cerere</button></a>
                 </div>
             </div>
             
@@ -47,26 +47,23 @@
     <!--Hero-->
     <div class="landingContent mt-[84px]">
         <div class="brandTitle relative">
-            <img src="img/docs.jpg" class="w-[100%] h-[320px] blur-[1px] brightness-[50%] object-cover xs:max-h-[281px] md:max-h-fit md:h-[450px]"  alt="">
+            <img src="img/docs.jpg" id="home" class="w-[100%] h-[320px] blur-[1px] brightness-[50%] object-cover xs:max-h-[281px] md:max-h-fit md:h-[450px]"  alt="">
             <div class="w-[100%] h-[100%] justify-center absolute flex flex-col gap-[15px] top-[50%] -translate-y-[50%] items-center text-white sm:gap-[20px] md:gap-[25px]">
                 <h1 class="font-bold font-Raleway text-[22px] text-center sm:text-[23px] md:text-[25px] lg:text-[30px] xl:text-[34px]">
                     Soluțiile tale de zi cu zi, sunt la un click distanță
                 </h1>
-                <a href="#services" class="md:mt-8"><button class="bg-transparent p-2 rounded-sm text-white border md:px-5 md:py-3 md:border-2 border-lightBlue text-[14px] font-Raleway hover:bg-lightBlue hover:-translate-y-1 duration-[.30s]">EXPLORE</button></a>
+                <a href="#services" class="mt-8 backdrop-blur-[2px]"><button class="bg-transparent p-2 rounded-sm text-white border-2 md:px-5 md:py-3 border-lightBlue text-[17px] font-Raleway hover:bg-lightBlue hover:-translate-y-1 duration-[.30s]">Vezi mai mult <i class="bi bi-arrow-down"></i></button></a>
             </div>
         </div>
     </div>
     
     <!--About-->
-    <div class="about my-[60px]">
+    <div class="about my-[60px]" id="about">
         <div class="container mx-auto flex flex-col items-center">
-            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">About</h1>
+            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Despre</h1>
             <div class="flex flex-col gap-[15px] md:flex-row md:gap-0">
                 <div class="self-center bg-softGray border-md relative md:self-stretch">
                     <img src="/img/Capture_5-removebg-preview.png" class="max-w-[300px] object-cover max-h-[270px] h-[100%] w-[100%] sm:max-w-[320px] md:max-w-[400px] rounded-md" alt="">
-                    <div class="absolute -top-[55px] -right-[95px] rotate-45 md:hidden">
-                        <img src="/img/icons8-squiggly-line-96-red.png">
-                    </div>
                     <div class="absolute hidden md:block md:-bottom-[90px] md:-left-[75px] rotate-180">
                         <img src="/img/icons8-squiggly-line-96-red.png">
                     </div>
