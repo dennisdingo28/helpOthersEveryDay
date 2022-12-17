@@ -6,11 +6,15 @@ module.exports = {
       colors:{
         "lightBlue":"#2570d1",
         "softGray":"#f0f0f0",
-        "softBlack":"#1e1e1e"
+        "softBlack":"#1e1e1e",
+        "bodyColor":"#bfbdbd"
       },
       fontFamily:{
         'Raleway':['Raleway', 'sans-serif'],
         'DMsans':['DM Sans', 'sans-serif'],
+        'JosefinSans':['Josefin Sans', 'sans-serif'],
+        'SourceCodePro':['Source Code Pro', 'monospace','sans-serif'],
+        'Rajdhani':['Rajdhani', 'sans-serif'],
       }
     },
     screens: {
