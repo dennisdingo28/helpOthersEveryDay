@@ -58,7 +58,7 @@
     </div>
     
     <!--About-->
-    <div class="about my-[60px]" id="about">
+    <div class="about my-[60px] px-1 sm:px-5" id="about">
         <div class="container mx-auto flex flex-col items-center">
             <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Despre</h1>
             <div class="flex flex-col gap-[15px] md:flex-row md:gap-0">
@@ -68,7 +68,7 @@
                         <img src="/img/icons8-squiggly-line-96-red.png">
                     </div>
                 </div>
-                <div class="bg-[#f2ede7] px-4 py-2 rounded-md md:rounded-none flex flex-col justify-between md:justify-around">
+                <div class="bg-[#f2ede7] px-1 sm:px-5 rounded-md md:rounded-none flex flex-col justify-between md:justify-around">
                     <p class="font-DMsans text-left text-[14px] m-2 uppercase tracking-wider text-softBlack md:text-[16px] max-w-[750px]">
                         Scopul nostru la ''Help Others'' este sa te ajutam pe tine in orice problema a-i intampina in viata de zi cu zi, de la o simpla asigurare auto pana la lucruri mai complicate precum ''Aplicatia de Rezidenta UK''. apasa butonul de servicii si vezi mai in amanunt ceea ce putem face noi.
                     </p>
@@ -94,6 +94,99 @@
                 </div>
             </div>
             
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div class="contact my-[60px] px-1 sm:px-5" id="contact">
+        <div class="container mx-auto flex flex-col">
+            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Creează o cerere</h1>
+            <div class="contactForm flex flex-col lg:flex-row lg:justify-center">
+                <div class="bg-red-800 px-1 sm:px-5 rounded-t-md flex flex-col lg:py-[50px]">
+                    <div class="header space-y-2 flex flex-col">
+                        <div class="xs:self-center">
+                            <h3 class="font-Rajdhani font-semibold text-left md:text-center text-white text-[19px] lg:text-[25px]">Comandă serviciul dorit în doar câteva secunde</h3>
+                        </div>
+                        <p class="text-softGray font-DMsans text-left md:text-center lg:text-[18px]">Echipa noastra vă stă la dispoziție 24/7</p>
+                    </div>
+                    <div class="footer relative mt-[40px] flex flex-col xs:flex-row-reverse xs:justify-between md:justify-around lg:flex-col lg:flex-[1] lg:justify-between">
+                        <div class="lg:flex-[1] flex items-center justify-center xs:self-stretch lg:self-center">
+                            <img src="/img/Capture_SLOGAN_RO-removebg-preview.png" class="w-[110px] h-[110px] object-cover xs:w-[160px] xs:h-[160px] lg:w-[250px] lg:h-[250px]" alt="">
+                        </div>
+                        <div class="flex flex-col gap-[25px] lg:items-center">
+                            <div class="flex items-center gap-[10px]">
+                                <i class="bi bi-telephone-fill text-green-600"></i>
+                                <p class="text-softGray text-[17px] lg:text-[21px]">+(40) 75 625 627</p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <i class="bi bi-envelope-fill text-green-600"></i>
+                                <p class="text-softGray text-[14px] lg:text-[21px]">helpothers03@gmail.com</p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <i class="bi bi-geo-alt-fill text-green-600"></i>
+                                <p class="text-softGray text-[17px] lg:text-[21px]">102 Street 2714 Dom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-softGray px-1 sm:px-5">
+                    <div class="grid grid-cols-1 space-y-9 md:space-y-0 md:mt-[36px] md:grid-cols-2 md:items-center md:gap-[50px]">
+                        <div class="flex flex-col items-center justify-center">
+                            <label for="firstName" class="-mb-2 font-JosefinSans"><i class="bi bi-person text-slate-800 text-[18px]"></i></label>
+                            <input type="text" placeholder="Nume" id="firstname" class="px-1 w-[100%] bg-transparent outline-none border-b-[2px] duration-[.25s] border-[#898989] focus:border-[#505050]">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <label for="lastName" class="-mb-2 font-JosefinSans"><i class="bi bi-person-circle text-slate-800 text-[18px]"></i></label>
+                            <input type="text" placeholder="Prenume" id="lastname" class="px-1 w-[100%] bg-transparent outline-none border-b-[2px] duration-[.25s] border-[#898989] focus:border-[#505050]">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <label for="email" class="-mb-2 font-JosefinSans"><i class="bi bi-envelope text-slate-800 text-[18px]"></i></label>
+                            <input type="text" placeholder="Email" id="lastname" class="px-1 w-[100%] bg-transparent outline-none border-b-[2px] duration-[.25s] border-[#898989] focus:border-[#505050]">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <label for="email" class="-mb-2 font-JosefinSans"><i class="bi bi-telephone-forward text-slate-800 text-[18px]"></i></label>
+                            <input type="tel" placeholder="Telefon" id="lastname" class="px-1 w-[100%] bg-transparent outline-none border-b-[2px] duration-[.25s] border-[#898989] focus:border-[#505050]">
+                        </div>
+                    </div>
+                    <div class="mt-12">
+                        <p class="font-Raleway text-[18px] font-bold mb-4">Ce serviciu vă doriți?</p>
+                        <div class="grid grid-cols-1 gap-[25px] xs:grid-cols-2">
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Asigurări Auto" id="asigAuto">
+                                <label for="asigAuto" class="font-Rajdhani cursor-pointer">Asigurări Auto</label>
+                            </div>
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Traducere Documente" id="tradDoc">
+                                <label for="tradDoc" class="font-Rajdhani cursor-pointer">Traducere Documente</label>
+                            </div>
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Ore de Limba Engleză" id="lbEng">
+                                <label for="lbEng" class="font-Rajdhani cursor-pointer">Ore de Limba Engleză</label>
+                            </div>
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Instalații Windows" id="instalWin">
+                                <label for="instalWin" class="font-Rajdhani cursor-pointer">Instalații Windows</label>
+                            </div>
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Aplicații Rezidență UK" id="rezUk">
+                                <label for="rezUk" class="font-Rajdhani cursor-pointer">Aplicații Rezidență UK</label>
+                            </div>
+                            <div class="cursor-pointer">
+                                <input type="checkbox" class="accent-red-800 cursor-pointer" value="Altceva" id="altceva">
+                                <label for="altceva" class="font-Rajdhani cursor-pointer">Altceva</label>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <p class="text-[17px] font-bold font-Raleway">Mai multe detalii</p>
+                            <textarea id="description" class="px-3 py-2 outline-none w-[100%] h-[150px] resize-none"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center pt-5 pb-3">
+                        <button class="bg-red-800 text-white hover:bg-red-900 duration-[.27s] rounded-sm px-4 py-2 cursor-pointer">Creează cererea</button>
+                        <p class="formStatus my-3">Cererea a fost trimisa cu success. Echipa noastra va raspunde in cel mai scurt timp.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
