@@ -18,4 +18,18 @@
 .serviceText p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-}   
+}  
+
+.menu-line .line{
+    transition: all 0.3s;
+}
+
+.line2.open{
+    display: none;
+}
+.line1.open{
+    transform: rotate(45deg);
+}
+.line3.open{
+    transform: rotate(135deg) translateY(5px) translateX(-5px);
+}

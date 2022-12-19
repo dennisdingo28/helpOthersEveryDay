@@ -9,40 +9,58 @@
     <link rel="Shortcut Icon" href="img/Capture_5.JPG">
     <title>HelpOthersEveryDay</title>
 </head> 
-<body>
+<body class="bg-[#e3dbdb]">
     <!--Navbar-->
     <div class="navbar fixed top-0 left-0 right-0 z-10 bg-[#d62d47] duration-[.50s]">
-        <div class="container mx-auto py-5 px-3">
-
-            <div class="flex items-center justify-between">
-                <div class="cursor-pointer ">
-                    <a href="index.html" class="flex items-center gap-[15px]">
-                    <div>
-                        <img src="img/Capture_4.JPG" class="w-[45px] h-[45px] rounded-full xs:w-[50px] xs:h-[50px]" alt="">
+        
+        <div class="relative">
+            <div class="container relative mx-auto py-5 px-3">
+                <div class="flex items-center justify-between relative">
+                    <div class="cursor-pointer ">
+                        <a href="index.html" class="flex items-center gap-[15px]">
+                        <div class="p-[1.6px] bg-[#fff] rounded-full">
+                            <img src="img/Capture_4.JPG" class="w-[45px] h-[45px] rounded-full xs:w-[50px] xs:h-[50px]" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-Raleway italic tracking-wider text-white hidden xs:block xs:text-[20px] md:text-white">Help Others Every day</h1>
+                        </div>
+                        </a>
                     </div>
-                    <div>
-                        <h1 class="font-Raleway italic tracking-wider text-white hidden xs:block xs:text-[20px] md:text-white">Help Others Every day</h1>
+                    <div class="cursor-pointer menu-line z-20 md:hidden">
+                        <div class="line1 line w-[20px] h-[2.5px] bg-white"></div>
+                        <div class="line2 line w-[20px] h-[2.5px] bg-white mt-[5px]"></div>
+                        <div class="line3 line w-[20px] h-[2.5px] bg-white mt-[5px]"></div>
                     </div>
-                    </a>
-                </div>
-                <div class="cursor-pointer md:hidden">
-                    <div class="line1 w-[20px] h-[2.5px] bg-softBlack"></div>
-                    <div class="line2 w-[20px] h-[2.5px] bg-softBlack mt-[5px]"></div>
-                    <div class="line3 w-[20px] h-[2.5px] bg-softBlack mt-[5px]"></div>
-                </div>
-                <div class="menuLinks hidden md:flex md:items-center md:space-x-8">
-                   
-                    <a href="#home" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Acasă</a>
-                   
-                    <a href="#about" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Despre</a>
-                
-                    <a href="#services" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Servicii</a>
-                
-                    <a href="#request" class="font-DMsans font-semibold text-white tracking-wide text-[15px]"><button class="bg-[#479127] border-none text-white py-[10px] px-[15px] duration-[.10s] rounded-full hover:bg-[#4e952f]">Creează o cerere</button></a>
+                    <div class="menuLinks hidden md:flex md:items-center md:space-x-8">
+                       
+                        <a href="#home" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Acasă</a>
+                       
+                        <a href="#about" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Despre</a>
+                    
+                        <a href="#services" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Servicii</a>
+                    
+                        <a href="#request" class="font-DMsans font-semibold text-white tracking-wide text-[15px]"><button class="bg-[#479127] border-none text-white py-[10px] px-[15px] duration-[.10s] rounded-full hover:bg-[#4e952f]">Creează o cerere</button></a>
+                    </div>
                 </div>
             </div>
+            <div class="menuLinksMobile hidden h-[100vh] absolute w-[50%] min-w-[150px] flex-col justify-between bg-[#282828] top-0 right-0 bottom-0 md:hidden">
+
+                <div class="h-[100%] max-h-[600px] my-auto flex flex-col justify-between">
+                    <div class="flex flex-col items-center gap-[40px]">
+                        <a href="#home" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Acasă</a>
+                    
+                        <a href="#about" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Despre</a>
+                    
+                        <a href="#services" class="font-DMsans font-semibold relative text-white tracking-wide text-[15px] after:duration-[.2s] after:content-[''] after:w-[0px] after:bg-[#479127] after:h-[2px] after:ease-linear after:absolute after:left-0 after:-bottom-[2px] hover:after:w-[100%]">Servicii</a>
+                    </div>  
+                    
+                    <a href="#request" class="self-center font-DMsans font-semibold text-white tracking-wide text-[15px]"><button class="bg-[#479127] border-none text-white py-[10px] px-[15px] duration-[.10s] rounded-full hover:bg-[#4e952f]">Creează o cerere</button></a>
+                </div>
+                
             
+            </div>
         </div>
+    
     </div>
     <!--Hero-->
     <div class="landingContent mt-[84px]">
@@ -60,7 +78,7 @@
     <!--About-->
     <div class="about my-[60px] px-1 sm:px-5" id="about">
         <div class="container mx-auto flex flex-col items-center">
-            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Despre</h1>
+            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[20px] sm:text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Despre</h1>
             <div class="flex flex-col gap-[15px] md:flex-row md:gap-0">
                 <div class="self-center bg-softGray border-md relative md:self-stretch">
                     <img src="/img/Capture_5-removebg-preview.png" class="max-w-[300px] object-cover max-h-[270px] h-[100%] w-[100%] sm:max-w-[320px] md:max-w-[400px] rounded-md" alt="">
@@ -98,12 +116,12 @@
     </div>
 
     <!--Services-->
-    <div class="flex container mx-auto px-1 sm:px-5 md:justify-center ">
-        <h1 class="font-semibold text-[#69be45] self-start text-[27px] border-[2.2px] border-[#d62d47] rounded-full px-4 mb-12">Servicii</h1>
+    <div class="flex container mx-auto px-1 sm:px-5 md:justify-center">
+        <h1 class="font-semibold text-[#69be45] self-start border-[2.2px] text-[20px] sm:text-[27px] border-[#d62d47] rounded-full px-4 mb-12">Servicii</h1>
     </div>
 
     <div class="services px-1 sm:px-5" id="services">
-        <div class="container mx-auto flex flex-col items-center space-y-7 md:space-y-0 md:gap-3.5 md:grid md:grid-cols-3 md:justify-center">
+        <div class="container mx-auto flex flex-col items-center space-y-4 md:space-y-0 md:gap-3.5 md:grid md:grid-cols-3 md:justify-center">
             
             <div class="card relative cursor-pointer bg-[#f2ede7] p-[12px] flex flex-col w-[100%] h-[100%] min-h-[150.5px] self-center hover:scale-105 duration-75">
                 <div class="flex flex-col gap-6 cardContent">
@@ -198,9 +216,9 @@
     <!--Contact-->
     <div class="contact my-[60px] px-1 sm:px-5" id="request">
         <div class="container mx-auto flex flex-col">
-            <h1 class="font-semibold text-left text-[#69be45] self-start md:self-center text-[27px] md:text-center border-[2.2px] border-[#d62d47] rounded-full px-1 sm:px-5 mb-12">Creează o cerere</h1>
+            <h1 class="font-semibold text-left text-[#69be45] self-start text-[20px] sm:text-[27px] md:self-center md:text-center border-[2.2px] border-[#d62d47] rounded-full px-1 sm:px-5 mb-12">Creează o cerere</h1>
             <div class="contactForm flex flex-col lg:flex-row lg:justify-center">
-                <div class="bg-red-800 px-1 sm:px-5 rounded-t-md flex flex-col lg:py-[50px] md:rounded-none md:rounded-tl-md md:rounded-bl-md">
+                <div class="bg-red-800 px-3 sm:px-5 rounded-t-md flex flex-col lg:py-[50px] md:rounded-none md:rounded-tl-md md:rounded-bl-md">
                     <div class="header space-y-2 flex flex-col">
                         <div class="xs:self-center">
                             <h3 class="font-Rajdhani font-semibold text-left md:text-center text-white text-[19px] lg:text-[25px]">Comandă serviciul dorit în doar câteva secunde</h3>
@@ -227,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-softGray px-1 sm:px-5">
+                <div class="bg-softGray px-3 sm:px-5">
                     <div class="grid grid-cols-1 space-y-9 mt-8 md:space-y-0 md:mt-[36px] md:grid-cols-2 md:items-center md:gap-[50px]">
                         <div class="flex flex-col items-center justify-center">
                             <label for="firstName" class="-mb-2 font-JosefinSans"><i class="bi bi-person text-slate-800 text-[18px]"></i></label>
@@ -288,6 +306,50 @@
         </div>
     </div>
 
+    <!--Footer-->
+    <div class="footer overflow-hidden mt-[160px] py-[15px] pb-[39px] bg-softBlack px-5 relative">
+        <div class="container mx-auto">
+            <div class="footerContainer flex flex-col md:flex-row-reverse md:justify-between md:items-center">
+                <div class="self-center">
+                    <a href="#home">
+                        <img src="/img/Capture_4-removebg-preview.png" class="w-[200px] h-[200px] object-cover" alt="">
+                    </a>
+                </div>
+                <div class="flex flex-col gap-[50px] xs:gap-0 xs:flex-row xs:items-center xs:justify-around md:flex-[1] md:items-stretch md:justify-evenly">
+                    <div class="space-y-4">
+                        <p class="text-[20px] text-center xs:text-start text-white">Relatives</p>
+                        <div class="flex flex-col items-center justify-center xs:items-start gap-[10px] md:flex text-softGray text-[17px]">
+                            <a href="#home" class="hover:underline">Acasă</a>
+                            <a href="#about" class="hover:underline">Despre</a>
+                            <a href="#services" class="hover:underline">Servicii</a>
+                            <a href="#request" class="hover:underline">Creează cerere</a>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <p class="text-[20px] text-center xs:text-start text-white">Contact</p>
+                        <div class="flex flex-col items-center justify-center xs:items-start gap-[10px] text-softGray text-[17px]">
+                            <a href="#" class="hover:underline">Facebook</a>
+                            <a href="#" class="hover:underline">Instagram</a>
+                            <a href="#" class="hover:underline">Discord</a>
+                            <a href="#" class="hover:underline">Email</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="text-softGray mt-12 md:mt-0">
+                    <h3 class="font-Raleway text-center text-[30px]">Ușurează-ți ziua cu noi.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="absolute -top-[70px] opacity-10 ">
+            <img src="/img/circle-svgrepo-com.svg" class="w-[150px] h-[150px]">
+        </div>
+        <div class="absolute bottom-[80px] right-[140px] opacity-10 rotate-45">
+            <img src="/img/bleach-triangle-svgrepo-com.svg" alt="" class="w-[150px] h-[150px">
+        </div>
+    </div>
+
     <script src="/js/service.js"></script>    
+    <script src="/js/menu.js"></script>
 </body>
 </html> 
