@@ -11,14 +11,6 @@
 .lowOpacity{
     background-color: rgba(#2e92ff,.7);
 }
-.serviceText{
-    align-items: center;
-    justify-content: center;
-}
-.serviceText p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}  
 
 .menu-line .line{
     transition: all 0.3s;
@@ -54,4 +46,7 @@
 }
 .formStatusRejected{
     color: red;
+}
+.formInput i{
+    display: none;
 }
