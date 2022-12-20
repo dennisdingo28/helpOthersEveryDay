@@ -629,8 +629,17 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-\[5px\] {
   margin-top: 5px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
 }
 
 .mt-\[84px\] {
@@ -649,10 +658,6 @@ video {
   margin-left: 0.75rem;
 }
 
-.mt-\[40px\] {
-  margin-top: 40px;
-}
-
 .-mb-2 {
   margin-bottom: -0.5rem;
 }
@@ -665,16 +670,12 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-\[160px\] {
   margin-top: 160px;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[70px\] {
-  margin-top: 70px;
 }
 
 .flex {
@@ -1097,6 +1098,10 @@ video {
   padding-bottom: 39px;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1308,6 +1313,32 @@ video {
 
 .line3.open{
   transform: rotate(135deg) translateY(5px) translateX(-5px);
+}
+
+.validatedForm .bi-check-lg{
+  display: block;
+  color: green;
+}
+
+.validatedForm .bi-exclamation-lg{
+  display: none;
+}
+
+.invalidForm .bi-exclamation-lg{
+  color: red;
+  display: block;
+}
+
+.invalidForm .bi-check-lg{
+  display: none;
+}
+
+.formStatusAccepted{
+  color: green;
+}
+
+.formStatusRejected{
+  color: red;
 }
 
 .after\:absolute::after {
@@ -1598,6 +1629,10 @@ video {
 
   .md\:items-stretch {
     align-items: stretch;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:justify-center {

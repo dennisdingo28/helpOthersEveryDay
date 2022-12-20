@@ -33,3 +33,25 @@
 .line3.open{
     transform: rotate(135deg) translateY(5px) translateX(-5px);
 }
+
+.validatedForm .bi-check-lg{
+    display: block;
+    color: green;
+}
+.validatedForm .bi-exclamation-lg{
+    display: none;
+}
+
+.invalidForm .bi-exclamation-lg{
+    color: red;
+    display: block;
+}
+.invalidForm .bi-check-lg{
+    display: none;
+}
+.formStatusAccepted{
+    color: green;
+}
+.formStatusRejected{
+    color: red;
+}
