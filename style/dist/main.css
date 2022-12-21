@@ -943,6 +943,10 @@ video {
   border-radius: 0.125rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-t-md {
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
@@ -1000,11 +1004,6 @@ video {
   background-color: rgb(40 40 40 / var(--tw-bg-opacity));
 }
 
-.bg-softGray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 240 240 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#f2ede7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(242 237 231 / var(--tw-bg-opacity));
@@ -1015,6 +1014,11 @@ video {
   background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
+.bg-softGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -1022,6 +1026,11 @@ video {
 .bg-softBlack {
   --tw-bg-opacity: 1;
   background-color: rgb(30 30 30 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#181818\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 24 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1105,6 +1114,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pt-5 {
@@ -1197,6 +1211,18 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
 }
 
 .tracking-wider {
@@ -1486,8 +1512,8 @@ video {
 }
 
 @media (min-width: 576px) {
-  .sm\:max-w-\[320px\] {
-    max-width: 320px;
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
   }
 
   .sm\:gap-\[20px\] {
@@ -1506,6 +1532,14 @@ video {
   .sm\:text-\[27px\] {
     font-size: 27px;
   }
+
+  .sm\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .sm\:text-\[\] {
+    color: ;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1515,6 +1549,10 @@ video {
 
   .md\:-left-\[75px\] {
     left: -75px;
+  }
+
+  .md\:m-0 {
+    margin: 0px;
   }
 
   .md\:mt-\[36px\] {
@@ -1550,8 +1588,8 @@ video {
     max-height: fit-content;
   }
 
-  .md\:max-w-\[400px\] {
-    max-width: 400px;
+  .md\:max-w-\[320px\] {
+    max-width: 320px;
   }
 
   .md\:flex-\[1\] {
@@ -1674,6 +1712,14 @@ video {
 
   .md\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[17px\] {
+    font-size: 17px;
   }
 
   .md\:text-white {
