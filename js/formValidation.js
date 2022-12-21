@@ -60,7 +60,7 @@ function validateForm(){
             badWord=true;
         }
         if(!badWord){
-            formStatus.textContent='Cererea a fost trimisă cu success. Echipa noastra va raspunde în cel mai scurt timp.';
+            formStatus.textContent='Cererea a fost trimisă cu success. Echipa noastră va răspunde în cel mai scurt timp.';
             sendMail();
             formStatus.classList.add('formStatusAccepted');
             formStatus.classList.remove('formStatusRejected');
