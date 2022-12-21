@@ -11,7 +11,7 @@ const descInput = document.querySelector('.descInput');
 const formInput = document.querySelectorAll('.formInput');
 
 createBtn.addEventListener('click',validateForm);
-
+console.log(services);
 const deniedWords = ["matii","pula","retardat","idiot","pisat","cacat","imbecil","taran","familia","pizda","mata","fututi","mortii","raniti","handicapatule","muie","muist","muistilor","mamele","tractorist","handicapat","pizdelor","ula","izda","chizda","sugi","pul","piz","sug","mui","fut","retarda","ma-ta"];
 
 function validateForm(){
