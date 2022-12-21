@@ -15,6 +15,20 @@ module.exports = {
         'JosefinSans':['Josefin Sans', 'sans-serif'],
         'SourceCodePro':['Source Code Pro', 'monospace','sans-serif'],
         'Rajdhani':['Rajdhani', 'sans-serif'],
+      },
+      keyframes: {
+        slideRight: {
+          '0%': { transform: 'translateX(-60%)' },
+          '100%': { transform: 'translateX(0)' }
+        },
+        slideLeft: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' }
+        }
+      },
+      animation: {
+        slideRight: 'slideRight 1s ease-in-out',
+        slideLeft: 'slideLeft 1s ease-in-out'
       }
     },
     screens: {
