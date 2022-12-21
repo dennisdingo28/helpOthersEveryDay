@@ -61,8 +61,6 @@ function validateForm(){
         }
         if(!badWord){
             formStatus.textContent='Cererea a fost trimisă cu success. Echipa noastra va raspunde în cel mai scurt timp.';
-            
-
             sendMail();
             formStatus.classList.add('formStatusAccepted');
             formStatus.classList.remove('formStatusRejected');
@@ -93,6 +91,7 @@ function validateForm(){
             surname:lastName.value,
             textEmail:email.value,
             requestedService:selectedService,
+            phoneNumber:phone.value,
             message:description.value
         }
         emailjs.send("service_zm08qqe","template_sjs86rq", params,"ajXQSRYLbuCvzeb2V")
