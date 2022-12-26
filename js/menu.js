@@ -15,4 +15,5 @@ function toggleMenu(){
     line1.classList.toggle('open');
     line2.classList.toggle('open');
     line3.classList.toggle('open');
+   
 }

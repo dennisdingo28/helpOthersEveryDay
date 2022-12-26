@@ -62,6 +62,7 @@ function validateForm(){
         if(!badWord){
             formStatus.textContent='Cererea a fost trimisă cu success. Echipa noastră va răspunde în cel mai scurt timp.';
             sendMail();
+            preventSpam();
             formStatus.classList.add('formStatusAccepted');
             formStatus.classList.remove('formStatusRejected');
             setTimeout(refreshInputIcon,2300);
