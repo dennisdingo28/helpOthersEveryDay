@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+.lowOpacity{
+    background-color: rgba(#2e92ff,.7);
+}
+
+.menu-line .line{
+    transition: all 0.3s;
+}
+
+.line2.open{
+    display: none;
+}
+.line1.open{
+    transform: rotate(45deg);
+}
+.line3.open{
+    transform: rotate(135deg) translateY(5px) translateX(-5px);
+}
+
+.validatedForm .bi-check-lg{
+    display: block;
+    color: green;
+}
+.validatedForm .bi-exclamation-lg{
+    display: none;
+}
+
+.invalidForm .bi-exclamation-lg{
+    color: red;
+    display: block;
+}
+.invalidForm .bi-check-lg{
+    display: none;
+}
+.formStatusAccepted{
+    color: green;
+}
+.formStatusRejected{
+    color: red;
+}
+.formInput i{
+    display: none;
+}
